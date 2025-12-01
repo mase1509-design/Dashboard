@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dashboard – Meine Apps</title>
+
+  <!-- Favicon / Icons -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon-180.svg">
+  <meta name="theme-color" content="#4568dc">
+  <link rel="manifest" href="manifest.json">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="assets/icon-192.svg" alt="Dashboard Icon" class="brand-icon">
+      <div>
+        <h1>Meine Apps</h1>
+        <p class="muted">Schneller Zugriff — Modernes Dashboard</p>
+      </div>
+    </div>
+    <nav>
+      <button id="installBtn" class="install" aria-hidden="true">Als App installieren</button>
+    </nav>
+  </header>
+
+  <main class="grid" role="list">
+    <a class="card" href="https://mase1509-design.github.io/Lesekoenig/" target="_blank" rel="noopener noreferrer" role="listitem">
+      <img class="card-logo" src="assets/lesekoenig.svg" alt="Lesekönig Logo">
+      <div class="card-body">
+        <h2>Lesekönig</h2>
+        <p>Übungen, Lesetexte und mehr.</p>
+      </div>
+      <div class="card-action">Öffnen →</div>
+    </a>
+
+    <a class="card" href="https://mase1509-design.github.io/Simbungen/" target="_blank" rel="noopener noreferrer" role="listitem">
+      <img class="card-logo" src="assets/simon.svg" alt="SimOn Übungen Logo">
+      <div class="card-body">
+        <h2>SimOn Übungen</h2>
+        <p>Interaktive Übungen und Simulationen.</p>
+      </div>
+      <div class="card-action">Öffnen →</div>
+    </a>
+
+    <a class="card" href="https://mase1509-design.github.io/Stundenplan/" target="_blank" rel="noopener noreferrer" role="listitem">
+      <img class="card-logo" src="assets/stundenplan.svg" alt="Stundenplan Logo">
+      <div class="card-body">
+        <h2>Stundenplan</h2>
+        <p>Dein Stundenplan – immer griffbereit.</p>
+      </div>
+      <div class="card-action">Öffnen →</div>
+    </a>
+  </main>
+
+  <footer class="footer">
+    <small>Statische Web-App — bereit für GitHub Pages</small>
+  </footer>
+
+<script src="app.js"></script>
+</body>
+</html>
